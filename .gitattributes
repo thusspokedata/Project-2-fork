@@ -1,12 +1,17 @@
-# Ensure that JavaScript files are categorized as JavaScript
 *.js linguist-language=JavaScript
-
-# Exclude the 'dist' and 'build' folders from language statistics
 dist/* linguist-vendored
 build/* linguist-vendored
-
-# Ignore JavaScript dependencies in node_modules from statistics
 node_modules/* linguist-vendored
+*.html linguist-vendored
+*.css linguist-vendored
+*.scss linguist-vendored
+*.js linguist-vendored
+*.ipynb linguist-vendored
+*.hbs linguist-vendored
 views/* linguist-vendored
 routes/* linguist-vendored
-*.hbs linguist-vendored
+jasmine/* linguist-vendored
+tests/* linguist-vendored
+utils/* linguist-vendored
+view/* linguist-vendored
+config/* linguist-vendored
